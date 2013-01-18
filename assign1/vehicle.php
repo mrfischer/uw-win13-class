@@ -1,9 +1,11 @@
 <?php
+
+require_once('vehicleInterface.php');
 /**
 * Abstract class to represent vehicle
 */
 
-abstract class Vehicle
+abstract class Vehicle implements vehicleInterface
 {
 	/**
 	* Number of doors
