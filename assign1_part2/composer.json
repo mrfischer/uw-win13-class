@@ -9,6 +9,20 @@
     ],
     "require": {
         "phpunit/phpunit": "3.7.*@dev"
+    },
+    "require-dev": {
+        "monolog/monolog": "1.2.1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/",
+            "tests/"
+        ]
+    },
+    "config": {
+        "vendor-dir" : "Vendors",
+        "vendor-bin" : "Vendors/bin"
     }
+
 }
 
